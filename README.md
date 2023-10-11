@@ -29,15 +29,18 @@ Project is created with:
 To run this project, install it locally using npm:
 
     - npm init -y
-    - npm install express
-    - npm install mongoose
-    - npm install moment
+    - npm i express
+    - npm i mongoose
+    - npm i moment
+    - npm i dotenv
 
 ## Usage
 
 After installing npm packages, the application will be invoked by using the following command:
 
- npm start
+* Start the server by running node server.js in your terminal.
+* Access the API routes using a tool like Insomnia or Postman.
+* Routes include user, thought, and reaction management.
 
 
  * Video
