@@ -2,8 +2,8 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const db = require('../config/connection');
 
-const User = require('../models');
-const Thought = require('../models');
+const User = require('../models/User');
+const Thought = require('../models/Thought');
 
 const userData = [
     {
